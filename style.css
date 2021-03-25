@@ -1,0 +1,116 @@
+/* CSS files add styling rules to your content */
+
+body {
+  background-color: #eeeeee;
+  font-family: 'Lato', sans-serif;
+  font-size: 12pt;
+  margin: 2em;
+  color: #1D3557;
+}
+
+h1 {
+  font-family: 'Bungee', cursive;
+  font-size: 30pt;
+  line-height: 30pt;
+  padding-bottom: 0pt;
+  margin-bottom: 0pt;
+}
+
+h2 {
+  padding-top: 0pt;
+  margin-top: 0pt;
+  font-weight: normal;
+  font-size: 10pt;
+}
+
+p {
+  padding: 0em 1em;
+}
+
+/* Button Styling */
+#controlButtonArea {
+  padding: 0em 0em 0em 1em;
+}
+/* top right bottom left*/
+#endBtn {
+ margin-bottom: 8em; 
+}
+
+#difficultyButtonArea {
+  padding: 0em 0em 0em 1em;
+}
+
+button {
+  background-color: #1D3557;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #fffffe;
+  border: transparent;
+  padding: 5px 10px;
+  border-radius: 12px;
+  box-shadow: 3px 3px 5px #aaaaaa;
+}
+
+button:hover, button.lit {
+  background-color: #3663A1;
+}
+
+.hidden {
+  display: none;
+}
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+
+#btn1 {
+  background-color: #FF989D;
+}
+
+#btn1:active, #btn1.lit {
+  background-color: #FF4C59;
+}
+
+#btn2 {
+  background-color: #FAE975;
+}
+
+#btn2:active, #btn2.lit {
+  background-color: #FFE216;
+}
+
+#btn3 {
+  background-color: #7DC1FF;
+}
+
+#btn3:active, #btn3.lit {
+  background-color: #3586CE;
+}
+
+#btn4 {
+  background-color: #C0E977;
+  
+}
+
+#btn4:active, #btn4.lit {
+  background-color: #95D32D;
+}
+
+/* Hyperlink Styling */
+
+a:link, a:visited {
+  color: #3663A1;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  font-style: italic;
+}
+
+a:active {
+  color: #694CC8;
+}
