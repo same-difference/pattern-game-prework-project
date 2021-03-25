@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>PGPP - Pattern Game Prework Project</title>
+    
+    <!-- Importing some google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Lato&display=swap" rel="stylesheet">
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  
+  <body>
+    <h1>Pattern Game Prework Project</h1>
+    <h2>Made by <a href="https://github.com/same-difference">Dianneth Murillo</a></h2>
+    <p id="introText">
+      Welcome to the game!<br><br>
+
+      Test your short term memory by clicking the buttons as shown by the
+      computer.<br><br>
+      
+      How many can YOU get before you mess up?
+    </p>
+
+    <div id="controlButtonArea">
+      <button id="startBtn" onclick="startGame()">Start</button>
+      <button id="endBtn" class="hidden" onclick="endGame()">End</button>
+    </div>
+    
+    <div id="difficultyButtonArea">
+      <p>
+        Set Difficulty:
+      <button id="easy" onclick="setDiff(1)">Easy</button>
+      <button id="medium" onclick="setDiff(2)">Medium</button>
+      <button id="hard" onclick="setDiff(3)">Hard</button>
+      </p>
+    </div>
+
+    <div id="gameButtonArea" class="hidden">
+      <button id="btn1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
+      <button id="btn2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+      <button id="btn3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+      <button id="btn4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+    </div>
+  </body>
+</html>
